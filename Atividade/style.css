@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.janela {
+  top: 50%;
+  left: 50%;
+  border: 1px solid #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 20px rgb(230, 0, 210, 0.1), 0 0 35px rgb(230, 0, 210, 0.1), 0 0 30px rgb(230, 0, 210, 0.1);
+  width: 200px;
+  height: 250px;
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(150deg, #000000, #262626);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.letra-cor {
+  color: #ff70ec;
+}
+
+.letra-cor2 {
+  color: #ffffff;
+}
+
+.botao {
+  margin-top: 20px;
+  background: linear-gradient(350deg, #fe7cec, #fe5de9);
+  width: 100%;
+}
